@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+
+
+
+.center {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border: 12px;
+}
