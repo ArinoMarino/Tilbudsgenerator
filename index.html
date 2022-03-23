@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tilbudsgenerator</title>
+</head>
+
+<body>
+    <div class="center">
+        <form id="form">
+
+
+            <input type="text" id="kundenavn" placeholder="Kundens navn">
+            <br>
+            <input type="text" id="navn" placeholder="Ditt navn">
+
+            <h4>Nett i ulike hastigeter</h4>
+
+            <label for="50mbit">50mbit</label>
+            <input type="radio" name="nett" id="50mbit-nett" value="399">
+            <label for="100mbit">100mbit</label>
+            <input type="radio" name="nett" id="100mbit-nett" value="599">
+            <label for="300mbit">300mbit</label>
+            <input type="radio" name="nett" id="300mbit-nett" value="799">
+            <label for="500mbit">500mbit</label>
+            <input type="radio" name="nett" id="500mbit-nett" value=999>
+
+            <br><br>
+
+            <h4>Fysiske produkter</h4>
+            <label for="dekoder">Ekstra TV-dekoder</label>
+            <input type="checkbox" name="engangs" id="dekoder" value=399>
+            <label for="extender">Wifi-extender</label>
+            <input type="checkbox" name="engangs" id="extender" value=499>
+
+            <br><br>
+
+            <h4>Hvis kunden har en rabatt, skriv in hvor mye her</h4>
+
+            <input type="number" name="rabatt" id="MonthlyRabatt" min="0" max="100" value="0">
+            <label for="MonthlyRabatt">Rabatt på månedspris</label> <br>
+            <input type="number" name="rabatt" id="EngangsRabatt" min="0" max="100" value="0">
+            <label for="EngangsRabatt">Rabatt på engangsprodukter</label>
+
+            <br><br>
+
+            <input type="submit" value="Ferdig utfyllt">
+
+            <h4>E-post til kunder (kopier)</h4>
+            <textarea name="txt" id="txt" cols="50" rows="12"></textarea>
+
+
+
+    </div>
+    </form>
+    </div>
+
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
